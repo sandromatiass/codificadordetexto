@@ -51,9 +51,12 @@ nav a {
     height: auto;
 }
 
+.areadigi{
+margin-left: 190px;
+}
+
 .cdigi {
     margin-top: 120px;
-    margin-left: 235px;
     padding: 225px 120px;
     border: none;
     border-radius: 25px;
