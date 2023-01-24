@@ -44,15 +44,16 @@ nav a {
 
 .astrocv {
     position: absolute;
-    top: 480px;
-    max-width: 275px;
-    max-height: 275px;
+    top: 200px;
+    margin-left: 500px;
+    max-width: 350px;
+    max-height: 350px;
     width: auto;
     height: auto;
 }
 
 .areadigi{
-margin-left: 190px;
+margin-left: 230px;
 }
 
 .cdigi {
@@ -61,4 +62,49 @@ margin-left: 190px;
     border: none;
     border-radius: 25px;
     top: 20px;
+}
+
+
+
+.encripta {
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    font-weight: bolder;
+    font-family:'Ubuntu', sans-serif; 
+    font-size: 19px;
+    color: #CEDEF2;
+    padding: 12px;
+    gap: 8px;
+    width: 250px;
+    height: 55px;
+    background: #035AA6;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.descripta {
+    position: relative;
+    display: flex;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    color: #035AA6;
+    box-sizing: border-box;
+    display: inline;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+    width: 250px;
+    height: 55px;
+    background: #CEDEF2;
+    border: 1px solid #0367A6;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
