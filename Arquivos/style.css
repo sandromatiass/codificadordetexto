@@ -35,7 +35,7 @@ nav li {
 }
 
 nav a {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -43,8 +43,9 @@ nav a {
 }
 
 
-
 .astrocv {
+    position: absolute;
+    
     max-width: 300px;
     max-height: 300px;
     width: auto;
