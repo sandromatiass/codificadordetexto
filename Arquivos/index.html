@@ -14,20 +14,27 @@
 </head>
 <body>
     <header>
-        <ul>
-            <h1><img src="../imagens/logo.png"></h1>
+        <div class="menu">
+            <h1><img src="../imagens/logo.png" id="logo"></h1>
             <nav>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
             </nav>
-        </ul>
+        </div>
     </header>
-    <section>
-        <input type="text" name="caixadigi" id="cdigi">
-        <p>Apenas letras minúsculas e sem acento.</p>
-        <input type="button" value="Criptografar">
-        <input type="button" value="Descriptografar">
-    </section>
+    <main>
+        <div class="areadigi">
+            <img src="../imagens/astrocv.png" class="astrocv">
+            <section>
+                <input type="text" name="caixadigi" id="cdigi">
+                <p>Apenas letras minúsculas e sem acento.</p>
+                <input type="button" value="Criptografar">
+                <input type="button" value="Descriptografar">
+            </section>
+        </div>
+    </main>
     <section>
         <textarea name="resultado" id="result" cols="30" rows="10"></textarea>
         <input type="button" value="copiar">
