@@ -14,12 +14,14 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <h1><img src="../imagens/logo1.png" class="logoimg"></h1>
+        </div>
         <div class="menu">
-            <h1><img src="../imagens/logo1.png" id="logo"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,13 +31,40 @@
             <section>
                 <textarea name="interpretador" class="cdigi" cols="30" rows="10" required placeholder="Digite aqui seu texto ..."></textarea>
                 
-                <img src="../imagens/alert.png" alt="alert" class="alert">
-                <p class="aviso"> Apenas letras minúsculas e sem acento.</p>
+                <div .exclamacao><img src="../imagens/alert.png" alt="alert" class="alert"></div>
+                
+                <div class="msgalert">
+                    <p class="aviso"> Apenas letras minúsculas e sem acento.</p>
+                </div>
                 
                 <div class="botaodp">
                     <input type="button" value="Criptografar" class="encripta">
                     <input type="button" value="Descriptografar" class="descripta">
                 </div>
+            </section>
+        </div>
+        <div>
+            <section class="links_contatos">
+                <nav class="contato">
+                    <div class="quadro"></div>
+                    <ul>
+                        <li class="contato1">
+                            <a href="#">
+                                <div class="lkd"><img src="../imagens/lkd.svg" alt="linkedin" class="lkdimg"></div>
+                            </a>
+                        </li>
+                        <li class="contato2">
+                            <a href="#">
+                                <div class="git"><img src="../imagens/git.svg" alt="git" class="gitimg"></div>
+                            </a>
+                        </li>
+                        <li class="contato3">
+                            <a href="#">
+                                <div class="wpp"><img src="../imagens/wpp.svg" alt="whatsapp" class="wppimg"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </section>
         </div>
             <div>
@@ -44,7 +73,7 @@
                     <input type="button" value="Copiar" class="copiar">
                     <p class="msgboneco1">Nenhuma mensagem encontrada.</p>
                     <p class="msgboneco2">Digite um texto que você deseja criptografar ou descriptografar.</p>
-                    <img src="../imagens/astroeu.png" alt="atronautaNotebook" class="astropc">
+                    <img src="../imagens/astropc.png" alt="atronautaNotebook" class="astropc">
                 </section>
             </div>
     </main>
