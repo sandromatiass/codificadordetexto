@@ -58,15 +58,37 @@ margin-left: 230px;
 
 .cdigi {
     margin-top: 120px;
-    padding: 225px 120px;
-    border: none;
-    border-radius: 25px;
-    top: 20px;
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: #035AA6;
+    width: 680px;
+    height: 48px;
+    left: 240px;
+    top: 168px;  
 }
 
+.alert {
+    position: absolute;
+    left: 10px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
 
+.aviso {
+    
+    width: 228px;
+    height: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
 
 .encripta {
+    margin-top: 400px;
     display: inline;
     flex-direction: row;
     align-items: center;
