@@ -11,15 +11,15 @@ header {
 #logo {
     position: relative;
     left: 150px;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 95px;
     width: auto;
     height: auto;
 }
 
 .menu {
     position: relative;
-    width: 1500px;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -40,32 +40,40 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #035AA6;
+    transition: 1s all;
 }
 
-.astrocv {
-    position: absolute;
-    top: 200px;
-    margin-left: 500px;
-    max-width: 350px;
-    max-height: 350px;
-    width: auto;
-    height: auto;
+nav a:hover {
+    font-size: 32px;
+    text-shadow: 10px 5px 10px 11px #8503a6;
 }
 
-.areadigi{
+.areadigi {
 margin-left: 230px;
 }
 
 .cdigi {
-    margin-top: 120px;
+    font-style: normal;
+    background-color: transparent;
+    line-height: 150%;
+    color:#035AA6;
+    border-style: none;
+    outline: 0;
+    break-inside: auto;
+    resize: none;
+    position: absolute;
     font-size: 32px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    color: #035AA6;
-    width: 680px;
-    height: 48px;
+    width: 500px;
+    height: 450px;
     left: 240px;
-    top: 168px;  
+    top:105px;  
+}
+
+.cdigi::placeholder{
+    color: #035AA6;
+    font-style: normal;
 }
 
 .alert {
@@ -76,19 +84,24 @@ margin-left: 230px;
     bottom: 0%;
 }
 
+.alert {
+    position: relative;
+    top: 603px;
+}
+
 .aviso {
-    
-    width: 228px;
-    height: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 150%;
+    position: relative;
+    top: 585px;
+    left: 30px;
+}
+
+.botaodp {
+    width: 700px;
 }
 
 .encripta {
-    margin-top: 400px;
+    margin-top: 600px;
+    box-shadow: 2px 2px 12px 0.50px rgba(112, 111, 111, 0.856);
     display: inline;
     flex-direction: row;
     align-items: center;
@@ -106,10 +119,19 @@ margin-left: 230px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.encripta:hover{
+    background: #0367A6;
+    width: 268px;
+    height: 60px;
 }
 
 .descripta {
     position: relative;
+    box-shadow: 2px 2px 12px 0.50px rgba(112, 111, 111, 0.856);
     display: flex;
     font-weight: bolder;
     font-family: 'Ubuntu', sans-serif;
@@ -129,4 +151,100 @@ margin-left: 230px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin: 15px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.descripta:hover {
+    background-color: #0367A6;
+    border: #0367A6;
+    color: #CEDEF2;
+    width: 268px;
+    height: 60px;
+}
+
+.result {
+    font-style: normal;
+    position: absolute;
+    border-radius: 35px;
+    left: 950px;
+    top: 100px;
+    width: 450px;
+    height: 550px;
+    background-color: #CEDEF2;
+    border-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    outline: 0;
+    resize: none;
+    color: #035AA6;
+    line-height: 150%;
+    padding: 0px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.astropc{
+    position: absolute;
+    top: 150px;
+    max-width: 350px;
+    max-height: 450px;
+    left: 1000px;
+}
+
+.msgboneco1 {
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #035AA6;
+}
+
+.msgboneco2 {
+    position: absolute;
+    top: 530px;
+    left: 995px;
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.copiar {
+    position: absolute;
+    top: 600px;
+    left: 1055px;
+    box-shadow: 2px 2px 12px 0.50px rgba(112, 111, 111, 0.856);
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    color: #CEDEF2;
+    gap: 8px;
+    width: 250px;
+    height: 55px;
+    background: #035AA6;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.copiar:hover {
+    background: #0367A6;
+    width: 268px;
+    height: 60px;
+}
+
+footer {
+    text-align: center;
 }
