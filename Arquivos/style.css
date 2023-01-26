@@ -295,7 +295,6 @@ footer {
     top: 710px;
     left: 550px;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
     color: #035AA6;
 }
 
@@ -303,10 +302,72 @@ footer {
 
 .explica {
     position: absolute;
-    left: 50px;
-    top: 120px;
+    left: 117px;
+    top: 278px;
+}
+
+.caixa {
+    position: absolute;
+    background-color: #CEDEF2;
+    width: 730px;
+    height: 600px;
+    border-radius: 20px;
+    left: 485px;
+    top: 80px;
+    box-shadow: 4px 7px 16px 2px rgba(128, 128, 128, 0.479);
 }
 
 .titulo1 {
-    
+     font-size: 48px;
+     position: absolute;
+     font-weight: bold;
+     color: #035AA6;
+     top:100px;
+     left: 655px;
+}
+
+.text1 {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 160px;
+    left: 500px;
+    color: #035AA6;
+    text-align: center;
+    font-style: none;
+}
+
+.text2 {
+    position: absolute;
+    width: 700px;
+    text-align: center;
+    top: 440px;
+    left: 500px;
+    color: #035AA6;
+}
+
+.text3 {
+    position: absolute;
+    font-size: 25px;
+    top: 530px;
+    left: 605px;
+    color: #035AA6;
+    font-weight: bold;
+}
+
+.text4 {
+    position: absolute;
+    font-size: 32px;
+    top: 610px;
+    left: 730px;
+    color: #035AA6;
+    font-weight: bold;
+}
+
+b {
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
 }
