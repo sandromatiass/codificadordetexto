@@ -5,15 +5,9 @@ const imgResult = document.querySelector(".msgaviso")
 function btCopiar() {
     navigator.clipboard.writeText(areaResultado.value).then(() =>  { (' ') });
     areaDeTexto.value = areaResultado.value
-    alert("Texto Copiado!")
+    alert("Texto Copiado!");
     areaResultado.value = ""
 }
-
-
-function validacao(letras){
-    let validado
-}
-
 
 function btCript() {
     const txtEncriptado = encriptar(areaDeTexto.value);
