@@ -2,18 +2,18 @@ const areaDeTexto = document.querySelector(".cdigi");
 const areaResultado = document.querySelector(".result");
 const imgResult = document.querySelector(".msgaviso")
 
-// A letra "e" é convertida para "enter"
-// A letra "i" é convertida para "imes"
-// A letra "a" é convertida para "ai"
-// A letra "o" é convertida para "ober"
-// A letra "u" é convertida para "ufat"
-
-
 function btCopiar() {
     navigator.clipboard.writeText(areaResultado.value).then(() =>  { (' ') });
     areaDeTexto.value = areaResultado.value
-    areaResultado.value = "Texto copiado!"
+    alert("Texto Copiado!")
+    areaResultado.value = ""
 }
+
+
+function validacao(letras){
+    let validado
+}
+
 
 function btCript() {
     const txtEncriptado = encriptar(areaDeTexto.value);
@@ -23,7 +23,7 @@ function btCript() {
 }
 
 function encriptar(stringEncriptada) {
-    let matrizCodigo = [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]]
+    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a" , "ai"] , ["o" , "ober"] , ["u" , "ufat"]]
     stringEncriptada = stringEncriptada.toLowerCase();
 
 for(let i = 0; i < matrizCodigo.length; i++){
@@ -42,7 +42,7 @@ function btDescript(){
 }
 
 function decriptar(stringDescriptada){
-    let matrizCodigo = [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]]
+    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a" , "ai"] , ["o" , "ober"] , ["u" , "ufat"]]
     stringDescriptada = stringDescriptada.toLowerCase();
 
 for(let i = 0; i < matrizCodigo.length; i++){
