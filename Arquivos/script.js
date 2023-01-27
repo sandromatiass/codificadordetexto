@@ -1,5 +1,6 @@
 const areaDeTexto = document.querySelector(".cdigi");
 const areaResultado = document.querySelector(".result");
+const imgResult = document.querySelector(".msgaviso")
 
 // A letra "e" é convertida para "enter"
 // A letra "i" é convertida para "imes"
@@ -7,22 +8,47 @@ const areaResultado = document.querySelector(".result");
 // A letra "o" é convertida para "ober"
 // A letra "u" é convertida para "ufat"
 
+
+function btCopiar() {
+    navigator.clipboard.writeText(areaResultado.value).then(() =>  { (' ') });
+    areaDeTexto.value = areaResultado.value
+    areaResultado.value = "Texto copiado!"
+}
+
 function btCript() {
-    const txtEncriptado = encriptar(cdigi.value);
-    result.value = txtEncriptado;
-    cdigi.value = "";
+    const txtEncriptado = encriptar(areaDeTexto.value);
+    areaResultado.value = txtEncriptado;
+    areaDeTexto.value = "";
+    imgResult.innerHTML = "";
 }
 
-function encriptar(textoEcriptado) {
-    let regraCodigo = [["e", "enter"] , ["i" , "imes"] , ["a", "ai"] , ["o" , "ober"] , ["u" , "ufat"]];
-    textoEncriptado = textoEncriptado.toLowerCase();
+function encriptar(stringEncriptada) {
+    let matrizCodigo = [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]]
+    stringEncriptada = stringEncriptada.toLowerCase();
 
-    for(let i = 0; i < regraCodigo.length; i++) {
-        if(textoEncriptado.includes(regraCodigo[i][0])) {
-            textoEncriptado = textoEncriptado.replaceAll(regraCodigo[i][0], regraCodigo [i][1]);
-        }
+for(let i = 0; i < matrizCodigo.length; i++){
+    if(stringEncriptada.includes(matrizCodigo[i][0])){
+        stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0],matrizCodigo[i][1]);
     }
-
-    return textoEncriptado;
+}
+    return stringEncriptada;
 }
 
+function btDescript(){
+    const txtDecriptado = decriptar(areaDeTexto.value);
+    areaResultado.value = txtDecriptado;
+    areaDeTexto.value = "";
+    imgResult.innerHTML = "";
+}
+
+function decriptar(stringDescriptada){
+    let matrizCodigo = [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]]
+    stringDescriptada = stringDescriptada.toLowerCase();
+
+for(let i = 0; i < matrizCodigo.length; i++){
+    if(stringDescriptada.includes(matrizCodigo[i][1])){
+        stringDescriptada = stringDescriptada.replaceAll(matrizCodigo[i][1], matrizCodigo[i][0]);
+    }
+}
+    return stringDescriptada;
+}

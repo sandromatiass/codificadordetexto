@@ -38,8 +38,8 @@
                 </div>
                 
                 <div class="botaodp">
-                    <button class="encripta" onclick="btCript">Criptografar</button>
-                    <button class="descripta" onclick="btDescript">Descriptografar</button>
+                    <button class="encripta" onclick="btCript()">Criptografar</button>
+                    <button class="descripta" onclick="btDescript()">Descriptografar</button>
                 </div>
             </section>
         </div>
@@ -69,11 +69,15 @@
         </div>
             <div>
                 <section>
-                    <textarea name="resultado" class="result" cols="30" rows="10"></textarea>
-                    <button class="copiar" onclick="btCopiar">Copiar</button>
-                    <p class="msgboneco1">Nenhuma mensagem encontrada.</p>
-                    <p class="msgboneco2">Digite um texto que você deseja criptografar ou descriptografar.</p>
-                    <img src="../imagens/astropc.png" alt="atronautaNotebook" class="astropc">
+                    <div class="funcao">
+                        <textarea name="resultado" class="result" cols="30" rows="10"></textarea>
+                        <button class="copiar" onclick="btCopiar()">Copiar</button>
+                    </div>
+                    <div class="msgaviso">
+                        <p class="msgboneco1">Nenhuma mensagem encontrada.</p>
+                        <p class="msgboneco2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                        <img src="../imagens/astropc.png" alt="atronautaNotebook" class="astropc">
+                    </div>
                 </section>
             </div>
     </main>
