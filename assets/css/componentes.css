@@ -1,0 +1,77 @@
+/*Botão encriptar*/
+
+
+
+
+
+
+/*.botao{
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px 0.50px rgba(112, 111, 111, 0.582);
+    cursor: pointer;
+    font-family: var(--font-family-ubuntu);
+    font-weight: bolder;
+    font-size: 19px;
+    height: 55px;
+    transition: 0.5s all;
+    width: 250px;  
+}
+
+
+.encripta {
+    top: 630px;
+    position: absolute;
+    display: inline;
+    flex-direction: row;
+    
+    
+    color: #CEDEF2;
+    padding: 12px;
+    background: #035AA6;
+    
+    
+}
+
+.btn--encripta:hover {
+    background: #0367A6;
+    width: 268px;
+    height: 60px;
+}
+
+.descripta {
+    position: absolute;
+    
+    display: flex;
+    top: 615px;
+    left: 500px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    color: #035AA6;
+    box-sizing: border-box;
+    display: inline;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    width: 250px;
+    height: 55px;
+    background: #CEDEF2;
+    border: 1px solid #0367A6;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 15px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.descripta:hover {
+    background-color: #0367A6;
+    border: #0367A6;
+    color: #CEDEF2;
+    width: 268px;
+    height: 60px;
+}*/

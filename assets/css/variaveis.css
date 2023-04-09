@@ -1,3 +1,6 @@
 :root{
-    --color-blue-dark-font: #035AA6;
+    --color-cobalt-blue: #035AA6;
+    --color-light-grey: #CEDEF2;
+    --color-light-blue: #B3CFF2;
+    --font-family-ubuntu: 'Ubuntu', sans-serif;
 }

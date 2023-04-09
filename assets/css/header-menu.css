@@ -24,7 +24,7 @@
 }
 
 .menu__li a{
-    color: var(--color-blue-dark-font);
+    color: var(--color-cobalt-blue);
     font-size: 26px;
     font-weight: bold;
     text-decoration: none;

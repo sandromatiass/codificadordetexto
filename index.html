@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/assets/css/header-menu.css">
     <link rel="stylesheet" href="/assets/css/variaveis.css">
+    <link rel="stylesheet" href="/assets/css/areaDeTextoEncriptar.css">
+    <link rel="stylesheet" href="/assets/css/areaDeTextoResult.css">
+    <link rel="stylesheet" href="/assets/css/componentes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -29,19 +32,18 @@
         </div>
     </header>
     <main class="container__principal">
-        <div class="areadigi">
-            <section>
-                <textarea name="interpretador" class="cdigi" cols="41" rows="4" required placeholder="Digite aqui seu texto ..."></textarea>
+            <section class="container__textarea_encriptar">
+                <textarea name="interpretador" class="area__detexto_encriptar" cols="41" rows="4" 
+                required placeholder="Digite aqui seu texto..."></textarea>
                 
-                <div .exclamacao><img src="/assets/img/alert.png" alt="alert" class="alert"></div>
-                
-                <div class="msgalert">
+                <div class="contaner__alerta">
+                    <img src="/assets/img/alert.png" alt="alert" class="alert">
                     <h2 class="aviso"> Apenas letras minúsculas e sem acento.</h2>
                 </div>
                 
-                <div class="botaodp">
-                    <button class="encripta" onclick="btCript()">Criptografar</button>
-                    <button class="descripta" onclick="btDescript()">Descriptografar</button>
+                <div class="botoes">
+                    <button class="botao btn--encripta" onclick="btCript()">Criptografar</button>
+                    <button class="botao btn--descripta" onclick="btDescript()">Descriptografar</button>
                 </div>
             </section>
         </div>
@@ -68,7 +70,6 @@
                     </ul>
                 </nav>
             </section>
-        </div>
             <div>
                 <section>
                     <div class="funcao">
