@@ -5,33 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagens/fav.ico" type="image/x-icon">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/header-menu.css">
+    <link rel="stylesheet" href="/assets/css/variaveis.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Codificador</title>
 </head>
 <body>
-    <header>
+    <header class="container__menu">
         <div class="logo">
-            <h1><img src="../imagens/logo1.png" class="logoimg"></h1>
+            <h1><img src="/assets/img/logo1.png" class="logoimg"></h1>
         </div>
         <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+            <nav class="menu__nav">
+                <ul class="menu__ul">
+                    <li class="menu__li"><a href="index.html">Home</a></li>
+                    <li class="menu__li"><a href="/assets/pages/sobre.html">Sobre</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
+    <main class="container__principal">
         <div class="areadigi">
             <section>
                 <textarea name="interpretador" class="cdigi" cols="41" rows="4" required placeholder="Digite aqui seu texto ..."></textarea>
                 
-                <div .exclamacao><img src="../imagens/alert.png" alt="alert" class="alert"></div>
+                <div .exclamacao><img src="/assets/img/alert.png" alt="alert" class="alert"></div>
                 
                 <div class="msgalert">
                     <h2 class="aviso"> Apenas letras minúsculas e sem acento.</h2>
@@ -50,17 +52,17 @@
                     <ul>
                         <li class="contato1">
                             <a href="https://www.linkedin.com/in/sandro-matias/" target="_blank" rel="external">
-                                <div class="lkd"><img src="../imagens/lkd.svg" alt="linkedin" class="lkdimg"></div>
+                                <div class="lkd"><img src="/assets/img/lkd.svg" alt="linkedin" class="lkdimg"></div>
                             </a>
                         </li>
                         <li class="contato2">
                             <a href="https://github.com/sandromatiass" target="_blank" rel="external">
-                                <div class="git"><img src="../imagens/git.svg" alt="git" class="gitimg"></div>
+                                <div class="git"><img src="/assets/img/git.svg" alt="git" class="gitimg"></div>
                             </a>
                         </li>
                         <li class="contato3">
                             <a href="https://wa.me/message/4UVYXYAN5XT2G1" target="_blank" rel="external">
-                                <div class="wpp"><img src="../imagens/wpp.svg" alt="whatsapp" class="wppimg"></div>
+                                <div class="wpp"><img src="/assets/img/wpp.svg" alt="whatsapp" class="wppimg"></div>
                             </a>
                         </li>
                     </ul>
@@ -76,7 +78,7 @@
                     <div class="msgaviso">
                         <h3 class="msgboneco1">Nenhuma mensagem encontrada.</h3>
                         <h4 class="msgboneco2">Digite um texto que você deseja criptografar ou descriptografar.</h4>
-                        <img src="../imagens/astropc.png" alt="atronautaNotebook" class="astropc">
+                        <img src="/assets/img/astropc.png" alt="atronautaNotebook" class="astropc">
                     </div>
                 </section>
             </div>
@@ -85,7 +87,7 @@
         <p class="copyright">&copy; DevSandroMatias - Projeto Codificador de Texto Alura - 2023.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/assets/script/script.js"></script>
 
 </body>
 </html>

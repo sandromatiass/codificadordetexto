@@ -3,42 +3,6 @@ body {
     background-color: #B3CFF2; 
 }
 
-.logo {
-    position: absolute;
-    top: 5px;
-    left: 150px;
-}
-
-.logoimg {
-    max-width: 150px;
-    max-height: 95px;
-}
-
-.menu {
-    position: absolute;
-    left: 1200px;
-    right: 0%;
-    top: 40px;
-}
-
-nav li {
-    display: inline;
-    margin: 9px;
-}
-
-nav a {
-    font-size: 26px;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #035AA6;
-    transition: 1s all;
-}
-
-nav a:hover {
-    font-size: 32px;
-    text-shadow: 10px 5px 10px 11px #8503a6;
-}
 
 
 .lkd {
